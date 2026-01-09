@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Kumar Satyam</title>
+    <style>
+        /* CSS for Layout and Design */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+
+        h2 {
+            color: #2980b9;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>KUMAR SATYAM</h1>
+            <div class="contact-info">
+                Email: <strong>jiisatyam662@gmail.com</strong> | 
+                Phone: <strong>9241163197</strong><br>
+                Location: Ara, Bihar
+            </div>
+        </header>
+
+        <hr>
+
+        <section>
+            <h2>Career Objective</h2>
+            <p>To secure a challenging position in a reputable organization where I can utilize my technical skills in web development and contribute to the growth of the company while expanding my knowledge in the field of technology.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Quad AI School of Technology</strong><br>
+                    Ara, Bihar
+                </li>
+                <li>
+                    <strong>Secondary Education</strong><br>
+                    Completed with a focus on Science and Mathematics.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript</li>
+                <li><strong>Tools:</strong> VS Code, Git Basics</li>
+                <li><strong>Personal:</strong> Problem Solving, Quick Learner, Teamwork</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Contact Details</h2>
+            <p>For professional inquiries or networking, please feel free to reach out:</p>
+            <ul>
+                <li><strong>Mobile:</strong> +91 9241163197</li>
+                <li><strong>Email:</strong> jiisatyam662@gmail.com</li>
+                <li><strong>Address:</strong> Ara, Bihar, India</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p id="last-updated"></p>
+        </footer>
+    </div>
+
+    <script>
+        // Automatically set the current year in the footer
+        const date = new Date();
+        document.getElementById('last-updated').innerText = "Last Updated: " + date.toLocaleDateString();
+    </script>
+
+</body>
+</html>
